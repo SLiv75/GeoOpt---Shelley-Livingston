@@ -71,7 +71,7 @@ h= rg.Mesh.CreateFromBrep(srf[0], rg.MeshingParameters(0, v))
 #compute face normals using rg.Mesh.FaceNormals.ComputeFaceNormals()
 #output the vectors to a
 
-faceNormals = h.FaceNormals.ComputeFaceNormals()
+faceNormals = rg.FaceNormals.ComputeFaceNormals()
 
 a = faceNormals
 
